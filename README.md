@@ -1,4 +1,4 @@
-#2024-HS1-COS30045-Data Visualisation!
+2024-HS1-COS30045-Data Visualisation
 
 Data Visualisation Project Process Book and Website
 
