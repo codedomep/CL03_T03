@@ -1,8 +1,8 @@
-2024-HS1-COS30045-Data Visualisation
+# 2024-HS1-COS30045-Data Visualisation
 
-Data Visualisation Project Process Book and Website
+## Data Visualisation Project Process Book and Website
 
-Team Memebrs;
+### Team Memebrs;
 
     + Khushil Jigneshkumar Patel 
     + L.K Pemod Ayodya Perera
