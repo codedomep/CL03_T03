@@ -1,0 +1,37 @@
+year,disease,rate
+2010,DTP,75
+2010,Measles,80
+2010,Hepatitis B,82
+2011,DTP,78
+2011,Measles,82
+2011,Hepatitis B,84
+2012,DTP,77
+2012,Measles,85
+2012,Hepatitis B,88
+2013,DTP,80
+2013,Measles,86
+2013,Hepatitis B,87
+2014,DTP,82
+2014,Measles,87
+2014,Hepatitis B,89
+2015,DTP,83
+2015,Measles,88
+2015,Hepatitis B,90
+2016,DTP,85
+2016,Measles,89
+2016,Hepatitis B,91
+2017,DTP,86
+2017,Measles,90
+2017,Hepatitis B,92
+2018,DTP,87
+2018,Measles,91
+2018,Hepatitis B,93
+2019,DTP,88
+2019,Measles,92
+2019,Hepatitis B,94
+2020,DTP,89
+2020,Measles,93
+2020,Hepatitis B,95
+2021,DTP,90
+2021,Measles,94
+2021,Hepatitis B,96

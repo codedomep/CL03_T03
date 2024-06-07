@@ -1,0 +1,37 @@
+year,disease,mortalityRate
+2010,DTP,30
+2010,Measles,40
+2010,Hepatitis B,35
+2011,DTP,32
+2011,Measles,38
+2011,Hepatitis B,33
+2012,DTP,34
+2012,Measles,36
+2012,Hepatitis B,31
+2013,DTP,31
+2013,Measles,35
+2013,Hepatitis B,29
+2014,DTP,33
+2014,Measles,34
+2014,Hepatitis B,28
+2015,DTP,32
+2015,Measles,33
+2015,Hepatitis B,27
+2016,DTP,30
+2016,Measles,32
+2016,Hepatitis B,26
+2017,DTP,29
+2017,Measles,31
+2017,Hepatitis B,25
+2018,DTP,28
+2018,Measles,30
+2018,Hepatitis B,24
+2019,DTP,27
+2019,Measles,29
+2019,Hepatitis B,23
+2020,DTP,26
+2020,Measles,28
+2020,Hepatitis B,22
+2021,DTP,25
+2021,Measles,27
+2021,Hepatitis B,21

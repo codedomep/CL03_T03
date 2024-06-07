@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immunisation and Mortality Data Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="/styles.css"> <!-- Link to external CSS file -->
+</head>
+<body class="bd3">
+    <nav class="navbar">
+        <ul>                        
+            <li><a href="/main.html" class="button-style">Home</a></li>
+            <li><a href="/code1/index.html" class="button-style">Code 1</a></li>
+            <li><a href="/code2/index.html" class="button-style">Code 2</a></li>
+        </ul>
+    </nav>
+
+    <h2 style="font-family: sans-serif;">Immunisation and Mortality Data Visualization</h2>
+    <div id="chart"></div>
+    <label class="slider-label">
+        <strong>Year: <span id="year-value">2010</span></strong>
+    </label>
+    <input type="range" id="year-slider" min="2010" max="2021" value="2010" step="1">
+
+    <p class="p3">
+        Using a bubble chart, this visualization explores the relationship between 
+        immunization rates and preventable mortality across various diseases. The size
+        and color of the bubbles indicate the severity of preventable deaths and the 
+        extent of immunization coverage, respectively. This interactive tool allows 
+        users to delve into specific details about the effectiveness of immunization 
+        programs and identify areas needing improvement.
+        description for the bar charts
+    </p>
+    <script src="script.js"></script>
+    <footer class="footer">
+        <p>COS30045 - Data Visualization</p>
+    </footer>   
+</body>
+</html>
