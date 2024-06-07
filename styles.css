@@ -1,0 +1,368 @@
+html, body {
+    height: 116%; /* Ensures the body takes full viewport height */
+    margin: 20px 0px 0px 30px;
+    padding: 0;
+    /* overflow: hidden; Disables scrolling */
+    background-color: #f5f5dc; /* Cream background color */
+}
+
+.bd{
+    overflow: hidden;
+}
+
+.bd2{
+    height: 155%;
+}
+
+.bd3{
+    height: 145%;
+}
+
+.p3{
+    margin-top: 75px;
+    margin-left: 30px;
+}
+
+.c1{
+    margin-bottom: -160px;
+}
+
+.c1p{
+    margin-bottom: 80px;
+}
+
+p{
+    font-size: large;
+    margin:40px ;
+    width: 88%;
+
+}
+.content-container {
+    position: relative;
+    min-height: 100vh; /* Full viewport height */
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343435; /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Corrected padding syntax */
+    height: 40px; /* Fixed height */
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    z-index: 0;
+}
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+.side-image {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 20%; /* Adjust size as needed */
+    z-index: 1;
+}
+
+.side-image.left {
+    left: -2%; /* Positioned closer to the center */
+    width: 38%; /* Slightly bigger */
+}
+
+.side-image.right {
+    right: -1%; /* Positioned closer to the center */
+    width: 40%; /* Slightly bigger */
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 60%; /* Adjust based on your preference */
+    z-index: 1; /* Make sure the text appears above the images */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 80px); /* Adjust height to subtract footer height */
+    justify-content: center; /* Centers content vertically in the available space */
+}
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: rgba(5, 59, 39, 0.505);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    margin: 0 10px; /* Adjust the 10px to increase or decrease the spacing */
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(145, 82%, 37%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(0 100 0) 0px 7px 29px 0px; /* Dark green color */
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: hsl(145, 82%, 37%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: hsl(145, 82%, 37%) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+
+.dashboard-title {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 800; /* Increased weight for more emphasis */
+    font-size: 46px; /* Larger size for better visibility */
+    color: #343435; /* Updated to a deeper, more modern shade of blue-grey */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for a 3D effect */
+    letter-spacing: 0.5px; /* Added spacing for a cleaner look */
+    line-height: 1.2; /* Adjusted line height to decrease gap */
+}
+
+
+/* from code 3 CSS file */
+
+/* NAVBAR */
+
+.navbar {
+    font-family: 'Cinzel', serif; /* Simplified font stack */
+    font-size: 18px; /* Slightly larger font size */
+    font-weight: 500;
+    padding: 10px 50px; /* Increased padding for better spacing */
+    margin: 0 auto;
+    border: none; /* Removed border for a cleaner look */
+    background-color: #343435; /* Darker shade for more elegance */
+    color: #ffffff; /* White text color for contrast */
+    display: flex; /* Changed to flex to better control the layout */
+    justify-content: center; /* Centered the items */
+    width: 100%; /* Full width */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+    overscroll-behavior: none;
+    position: fixed; /* Fixed position to keep it at the top */
+    top: 0; /* Align to the top of the viewport */
+    left: 0; /* Align to the left of the viewport */
+    right: 0; /* Align to the right of the viewport */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    height: 40px; /* Define a fixed height for the navbar */
+}
+
+body {
+    padding-top: 60px; /* Offset the body content by the height of the navbar */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align the items */
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Ensure full width */
+}
+
+.navbar ul li {
+    margin: 0 15px; /* Uniform margin for separation */
+}
+
+.navbar ul li a {
+    color: #ffffff; /* Ensured text is white for readability */
+    text-decoration: none;
+    background-color: transparent; /* Removed background color for a cleaner look */
+    padding: 10px 20px; /* Adjusted padding */
+    text-align: center;
+    display: block; /* Changed to block for better control */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.navbar ul li a:hover {
+    color: white; /* Highlight color on hover */
+    background-color: #04a879; /* Light background on hover for contrast */
+}
+
+.ul_first_element {
+    font-size: 24px; /* Adjusted for better proportion */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+/* END OF NAVBAR*/
+
+.slider-container {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.slider-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #343435;
+    font-size: 16px;
+}
+
+#year-slider {
+    appearance: none;
+    width: 40%; /* Full width for better control */
+    height: 15px;
+    border-radius: 5px;
+    background: repeating-linear-gradient(to right, 
+                                          #000 0%, #000 1%, 
+                                          #04a879 1%, #04a879 100%);
+    background-size: calc(100% / 11) 100%; /* 11 intervals for 12 years */
+    outline: none;
+    opacity: 0.7;
+    border: 2px solid #343435; /* Set initial border color to #343435 */
+    transition: opacity .2s, border-color .2s; /* Transition for opacity and border color */
+}
+
+#year-slider:hover {
+    opacity: 1;
+    border: 2px solid black; /* Add black border on hover */
+    transform: scale(1.02); /* Slight scale up on hover for better feedback */
+}
+
+#year-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
+    transition: background .3s, transform .3s; /* Smooth transition for background color and transformation */
+}
+
+#year-slider:hover::-webkit-slider-thumb {
+    background: #d83227; /* Change color on hover */
+    transform: scale(1.3); /* Scale up the thumb when hovered */
+    border: 2px solid black; /* Add black border on hover */
+}
+
+#year-slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04a879;
+    cursor: pointer;
+}
+
+#year-slider::-moz-range-track {
+    background: repeating-linear-gradient(to right, 
+                                          #000 0%, #000 1%, 
+                                          #ddd 1%, #ddd 100%);
+    background-size: calc(100% / 11) 100%; /* Ensure it matches with the overall slider style */
+}
+
+#year-slider::-ms-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04a879;
+    cursor: pointer;
+}
+
+#year-slider::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #f5f5dc; /* Cream color */
+}
+
+.bubble { 
+    stroke: #fff; stroke-width: 1.5px; 
+}
+
+.slider-label { 
+    margin-top: 20px; 
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: auto;
+    padding: 9px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 2px solid #333; /* Bolder border */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5); /* Stronger shadow for more depth */
+    color: #333; /* Darker text for better readability */
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.button-style {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: rgba(5, 59, 39, 0.505);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Arial, sans-serif; /* Changed font to sans-serif */
+    transition: all 0.5s ease;
+    margin: 0 10px; /* Adjust the 10px to increase or decrease the spacing */
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from parent */
+}
+
+.button-style:hover {
+    letter-spacing: 3px;
+    background-color: hsl(145, 82%, 37%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(0 100 0) 0px 7px 29px 0px; /* Dark green color */
+}
+
+.button-style:active {
+    letter-spacing: 3px;
+    background-color: hsl(145, 82%, 37%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: hsl(145, 82%, 37%) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+
+/* from code 2 internal CSS file */
+
+.bold {
+    font-weight: bold;
+}
+.red-text {
+    color: #df0304;
+}
+.blue-text {
+    color: #0100f6;
+}
+.black-bold {
+    color: black;
+    font-weight: bold;
+}
+.graph-title {
+    font-weight: bold; /* Make the graph title bold */
+}
